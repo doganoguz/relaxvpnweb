@@ -1,4 +1,4 @@
-const appName = 'Mighty VPN';
+const appName = 'Relax VPN';
 const appNameAdmin = '$appName - Admin Panel';
 
 class SharePreferencesKey {

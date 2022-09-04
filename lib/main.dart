@@ -28,7 +28,16 @@ void main() async {
 
   setPathUrlStrategy();
 
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+       options: FirebaseOptions(
+      apiKey: "AIzaSyBxY_99iQagGfFQIAjI_ShSEhB6N4V0v5o",
+      appId: "1:665284219108:web:e2b5e4afe74192f9e45cf1",
+      messagingSenderId: "665284219108",
+      projectId: "relaxvpnapp-58dca",
+      storageBucket: "relaxvpnapp-58dca.appspot.com",
+    ),
+  ) ;
+
 
   defaultRadius = 16.0;
   defaultAppButtonRadius = 30.0;
